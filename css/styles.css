@@ -1,0 +1,241 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
+}
+:root {
+  --black: #212121;
+  --white: #ffffff;
+  --grey: #757575;
+  --blue: #2196f3;
+  --dark-blue: #2f303a;
+}
+
+/* index part */
+/* header */
+
+.main-header-link {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.header-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.web-part {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--blue);
+}
+
+.studio-part {
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black);
+}
+
+.studio-part-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue);
+}
+
+/* hero */
+
+.hero-section {
+  background-color: var(--dark-blue);
+  width: 1600px;
+  height: 600px;
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.button-title {
+  background: var(--blue);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+
+  /* button text */
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.button-title:hover {
+  background: #188ce8;
+}
+
+/* advantages section */
+
+.advantages-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.advantages-details {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+/* activity section */
+
+.activity-section-title,
+.team-section-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+/* team section  */
+
+.teammate-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+.teammate-occupation {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+/* footer-section */
+
+.footer-section {
+  background-color: var(--dark-blue);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+}
+
+.location-section {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+}
+
+.contacts-section-link {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: var(--blue);
+}
+
+/* portfolio part */
+
+.button-menu-section {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  border: 0;
+
+  /* button text */
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.button-menu-section:hover {
+  background: #188ce8;
+  color: var(--white);
+}
+
+/* projects section */
+
+.projects-section {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+.projects-section-description {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
