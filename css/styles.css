@@ -21,6 +21,15 @@ body {
   text-decoration: none;
 }
 
+.header-link-contacts {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--grey);
+}
+
 .header-link {
   font-family: Roboto;
   font-weight: 500;
@@ -63,6 +72,11 @@ ul {
   color: var(--blue);
 }
 
+.header-link-contacts:hover,
+.header-link-contacts:focus {
+  color: var(--blue);
+}
+
 /* hero */
 
 .hero-section {
@@ -85,10 +99,6 @@ ul {
 .button-title {
   background: var(--blue);
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   cursor: pointer;
   border: 0;
   position: absolute;
@@ -130,6 +140,15 @@ ul {
 }
 
 /* activity section */
+
+.section-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
 
 .activity-section-title,
 .team-section-title {
@@ -176,6 +195,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white);
+  font-style: normal;
 }
 
 .contacts-section-link {
@@ -186,6 +206,7 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  text-decoration: none;
 }
 
 .contacts-section-link:hover,
@@ -198,10 +219,6 @@ ul {
 .button-menu-section {
   background: #f5f4fa;
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   cursor: pointer;
   border: 0;
 
